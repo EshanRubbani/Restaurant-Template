@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "restro-web-79267",
+          "configurations": {
+            "web": "1:701094134324:web:28d73b27aee061a0de0061"
+          }
+        }
+      }
+    }
+  }
+}
