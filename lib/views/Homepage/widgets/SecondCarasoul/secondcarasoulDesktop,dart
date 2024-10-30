@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+
+class secondCarasoulsDesktop extends StatelessWidget {
+ secondCarasoulsDesktop({ Key? key }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context){
+    return  Container(
+      width: MediaQuery.of(context).size.width,
+      height: 250,
+      color: Color.fromRGBO(189, 189, 189, 1),
+    );
+  }
+}
